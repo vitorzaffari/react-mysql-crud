@@ -1,0 +1,27 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    color: #fff;
+    background:radial-gradient(rgb(49, 49, 49), rgb(36, 36, 36));
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+}
+
+.book button{
+    margin: 5px;
+    border-radius: 5px;
+}
